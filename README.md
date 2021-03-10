@@ -13,7 +13,7 @@ Nesse curso você aprenderá os principais conceitos e fundamentos da linguagem 
 Nesse curso você entenderá os principais recursos de estrutura de dados através de arrays, slices, maps e structs. Além disso, serão apresentados os principais conceitos de Orientação a Objetos com Go, utilizando Structs, herança e interfaces.
 - 118 minutos de video
 - 15 aulas
-- [Certificado](certificate-iniciando-com-go-lang-oo.jpg)
+- [Certificado](certificate-iniciando-com-golang-oo.jpg)
 
 ##### 3 - Avançando com Go Lang
 Nesse curso você aprenderá como executar operações de forma concorrente e paralela utilizando os mais diversos recursos que a Go Lang possui. Utilização de go routines, waiting groups, mutex, race conditions, channels serão os principais assuntos abordados.
