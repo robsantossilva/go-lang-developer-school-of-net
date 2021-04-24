@@ -1,0 +1,21 @@
+version: '3'
+
+services: 
+
+  mysql: 
+    build: ./.docker/mysql
+    container_name: mysql-go-lang
+    #command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./.docker/mysql/data:/var/lib/mysql
+      - ./.docker/mysql/sql:/docker-entrypoint-initdb.d
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    networks:
+      - go_course
+
+networks:
+  go_course:
+    driver: bridge

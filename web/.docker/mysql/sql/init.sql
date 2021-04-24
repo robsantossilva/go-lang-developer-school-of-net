@@ -1,0 +1,6 @@
+CREATE DATABASE IF NOT EXISTS go_course;
+CREATE TABLE IF NOT EXISTS `go_course`.`posts` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `title` VARCHAR(50) NOT NULL,
+  `body` TEXT
+);
